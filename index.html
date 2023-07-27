@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fruit brust</title>
   <link rel="icon" type="image/x-icon" href="./images/logo.png">
+  <link rel="stylesheet" href="style.css">
   <!-- custom-tailwidn & css class -->
   <script>
     tailwind.config = {
@@ -41,34 +42,32 @@
 </head>
 
 <body class="font-lato   ">
-  <header class="mx-auto text-center">
+  <header class="mx-auto text-center  max-w-screen-xl  px-3 md:px-5 lg:px-7">
     <div
-      class="navbar bg-white md:bg-[#F85559] lg:bg-[#F85559] h-[100px] rounded-full sm:w-full max-w-screen-xl mx-auto  my-10 py-5 sm:pr-0 lg:px-5 md:px-8 lg:px-10 flex justify-between">
+      class="navbar bg-white md:bg-[#F85559] lg:bg-[#F85559] h-[100px] rounded-full sm:w-full  my-10 py-5 sm:pr-0  flex justify-between max-w-screen-xl mx-auto px-3 md:px-5 lg:px-7">
       <div class="order-2 lg:order-1">
-        <div class="dropdown">
+        <div class="dropdown ml-auto">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="right" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
           </label>
-          <ul tabindex="0" class="menu  dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box  r-[-60px]">
+          <ul tabindex="0" class="menu dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 r-[60px] right-0 custom-dropdown">
+            <li><a>Home</a></li>
+            <li class="text-right"><a>About Us</a></li>
+            <li class="text-right"><a>Shop</a></li>
+            <li class="text-right"><a>All Fruits</a></li>
+          </ul>
+        </div>
+      </div>
+        <div class="navbar-start hidden lg:flex">
+          <ul class="menu menu-horizontal text-white text-[18px]">
             <li><a>Home</a></li>
             <li><a>About Us</a></li>
             <li><a>Shop</a></li>
             <li><a>All Fruits</a></li>
           </ul>
         </div>
-
-      </div>
-      <div class="navbar-start hidden lg:flex">
-        <ul class="menu menu-horizontal text-white  text-[18px]">
-          <li><a>Home</a></li>
-          <li><a>About Us</a></li>
-          <li><a>Shop</a></li>
-          <li><a>All Fruits</a></li>
-        </ul>
-      </div>
 
       <div class=" flex ">
         <div class="w-[60px]"><img src="./images/logo.png" alt=""></div>
@@ -95,9 +94,9 @@
     </div>
   </header>
 
-  <main class="max-w-screen-xl mx-auto">
+  <main class="max-w-screen-xl mx-auto px-3 md:px-0 lg:px-0">
     <!-- banner section -->
-    <div class="relative max-w-screen-xl mx-auto mb-[50px] lg:mb-[200px]">
+    <div class="relative max-w-screen-xl mx-auto mb-[50px] lg:mb-[200px] px-3 md:px-5 lg:px-7">
       <div class="carousel w-full rounded-lg">
         <!-- card-1 -->
         <div id="slide1" class="carousel-item relative w-full  ">
@@ -208,7 +207,7 @@
     </div>
 
     <!-- deal of the day section -->
-    <section class="max-w-screen-xl mx-auto mb-[50px]">
+    <section class="max-w-screen-xl mx-auto mb-[50px] px-3 md:px-5 lg:px-0">
       <div class="text-center lg:text-left mx-auto flex-col md:flex lg:flex-row justify-between items-center">
         <div class=" ">
           <h1 class="text-5xl font-extrabold">Deal of the day</h1>
@@ -325,7 +324,7 @@
 
     <!-- meet the team sectio  -->
     <section>
-      <div class=" mx-auto text-center mb-20">
+      <div class=" mx-auto text-center mb-20 px-3 md:px-5 lg:px-7">
         <div class="hero sm:h-auto lg:h-[550px] bg-cover bg-center" style="background-image: url('./images/banner1.png');">
           <div class="hero-overlay bg-opacity-60 "></div>
           <div class=" text-center text-neutral-content">
@@ -399,9 +398,9 @@
     </setion>
   </main>
 
-  <footer class="bg-black pb-10">
+  <footer class="bg-black pb-10 px-3 md:px-5 lg:px-7">
 
-       <div class="max-w-screen-xl mx-auto h-[320px]">
+       <div class="max-w-screen-xl mx-auto h-[320px] px-3 md:px-5 lg:px-7">
         <div class=" flex  justify-center mx-auto pt-20">
           <div class="w-[60px]"><img src="./images/logo.png" alt=""></div>
           <div>
