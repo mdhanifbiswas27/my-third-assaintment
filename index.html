@@ -77,18 +77,17 @@
       </div>
 
       <div class="navbar-end ">
+<!-- edit -->
         <form class="order-3 ">
 
           <div class="relative hidden md:block lg:block ">
             <div class="absolute inset-y-0 right-4 flex items-center pl-3 pointer-events-none">
-              <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
-              </svg>
+              <i class="fa-solid fa-magnifying-glass pointer-events-auto"></i>
             </div>
-            <input type="search" class=" rounded-full p-2 text-sm text-[#121212] lg:w-[400px]"
+            <input [type="search"] class=" rounded-full p-3 required text-sm text-[#121212] lg:w-[400px] focus:outline-none"
               placeholder="Search here">
           </div>
+          <!-- edit -->
         </form>
       </div>
     </div>
@@ -311,7 +310,7 @@
               <i class="fa-regular fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <button class="text-[#F85559] font-bold text-xl" onclick="my_modal_1.showModal()">Details</button>
+            <button class="text-[#F85559] font-bold text-xl" onclick="my_modal_2.showModal()">Details</button>
           </div>
         
         <dialog id="my_modal_2" class="modal">
@@ -353,7 +352,7 @@
               <i class="fa-regular fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <button class="text-[#F85559] font-bold text-xl" onclick="my_modal_1.showModal()">Details</button>
+            <button class="text-[#F85559] font-bold text-xl" onclick="my_modal_3.showModal()">Details</button>
           </div>
         
         <dialog id="my_modal_3" class="modal">
@@ -395,7 +394,7 @@
               <i class="fa-regular fa-star"></i>
               <i class="fa-regular fa-star"></i>
             </div>
-            <button class="text-[#F85559] font-bold text-xl" onclick="my_modal_1.showModal()">Details</button>
+            <button class="text-[#F85559] font-bold text-xl" onclick="my_modal_4.showModal()">Details</button>
           </div>
         
         <dialog id="my_modal_4" class="modal">
@@ -518,7 +517,7 @@
             <div class="sm:text-center lg:text-left mx-auto">
               <h1 class="font-extrabold text-2xl text-center lg:text-left ">Dedicated Team</h1>
               <hr class="w-1/4 my-3  h-[2px] text-center lg:text-left mx-auto">
-              <p class="font-medium text-lg text-[#12121299] w-[414px] mx-auto text-center lg:text-left">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <p class="font-medium text-[16px] text-[#12121299] w-[414px] mx-auto text-center lg:text-left">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
           </div>
 
@@ -529,7 +528,7 @@
             <div class="sm:text-center lg:text-left mx-auto">
               <h1 class="font-extrabold text-2xl text-center lg:text-left ">Fresh is Best</h1>
               <hr class="w-1/4 my-3  h-[2px] text-center lg:text-left mx-auto">
-              <p class="font-medium text-lg text-[#12121299] w-[414px] mx-auto text-center lg:text-left">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <p class="font-medium text-[16px] text-[#12121299] w-[414px] mx-auto text-center lg:text-left">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
           </div>
 
@@ -540,7 +539,7 @@
             <div class="sm:text-center lg:text-left mx-auto">
               <h1 class="font-extrabold text-2xl text-center lg:text-left  ">Gift Certificates</h1>
               <hr class="w-1/4 my-3  h-[2px] text-center lg:text-left mx-auto">
-              <p class="font-medium text-lg text-[#12121299] w-[414px] mx-auto text-center lg:text-lef">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <p class="font-medium text-[16px] text-[#12121299] w-[414px] mx-auto  text-center lg:text-left">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
           </div>
 
@@ -550,13 +549,13 @@
           <img class=" h-[400px] pb-4 lg:pb-0 mb-1 mx-auto" src="./images/whychoose1.png" alt="">
         </div>
             <!-- sm hidden and lg block -->
-        <div class="text-right order-3 md:order-3 lg:order3 w-[480px] hidden lg:block">
+        <div class="text-right order-3 md:order-3 lg:order3 w-[485px] hidden lg:block">
 
           <div class="flex gap-3 mb-8">
             <div>
               <h1 class="font-extrabold text-2xl ">Integrated Supplier</h1>
               <div class="flex justify-end"><hr class="w-1/4 my-3  h-[2px] text-right "></div>
-              <p class="font-medium text-lg text-[#12121299] w-[424px]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <p class="font-medium text-[16px] text-[#12121299] w-[410px]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
             <div class="h-[60px] w-[60px] bg-[#1212121a] rounded-full flex items-center justify-center mx-auto text-2xl">
               <i class="fa-solid fa-truck-field"></i>
@@ -567,7 +566,7 @@
             <div>
               <h1 class="font-extrabold text-2xl ">Sustainable Practice</h1>
               <div class="flex justify-end"><hr class="w-1/4 my-3  h-[2px] text-right "></div>
-              <p class="font-medium text-lg text-[#12121299] w-[424px]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <p class="font-medium text-[16px] text-[#12121299] w-[414px]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
             <div class="h-[60px] w-[60px] bg-[#1212121a] rounded-full flex items-center justify-center mx-auto text-2xl">
               <i class="fa-solid fa-ice-cream"></i>
@@ -578,7 +577,7 @@
             <div>
               <h1 class="font-extrabold text-2xl ">The Benefits Only</h1>
               <div class="flex justify-end"><hr class="w-1/4 my-3  h-[2px] text-right "></div>
-              <p class="font-medium text-lg text-[#12121299] w-[424px]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <p class="font-medium text-[16px] text-[#12121299] w-[414px]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
             <div class="h-[60px] w-[60px] bg-[#1212121a] rounded-full flex items-center justify-center mx-auto text-2xl">
               <i class="fa-regular fa-thumbs-up"></i>
@@ -587,7 +586,7 @@
 
         </div>
         <!-- small shoe lg hidden -->
-        <div class="text-right order-3 md:order-3 lg:order3 w-[480px] block lg:hidden">
+        <div class="text-right order-3 md:order-3 lg:order3 w-[495px] block lg:hidden">
 
           <div class=" flex-row lg:flex-row-reverse gap-2 mb-8 justify-end">
             <div class="h-[60px] w-[60px] bg-[#1212121a] rounded-full flex items-center justify-center mx-auto text-2xl">
@@ -669,5 +668,4 @@
   </footer>
 
 </body>
-
 </html>
